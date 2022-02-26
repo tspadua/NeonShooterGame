@@ -1,0 +1,7 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/tspadua/Projects/NeonShooter/Content/Fonts/NovaSquare.spritefont","/home/tspadua/Projects/NeonShooter/Content/bin/DesktopGL/Fonts/NovaSquare.xnb","FontDescriptionProcessor","SpriteFontContent",2014,21538,0.1874084
+"/home/tspadua/Projects/NeonShooter/Content/Sprites/Bullet.png","/home/tspadua/Projects/NeonShooter/Content/bin/DesktopGL/Sprites/Bullet.xnb","TextureProcessor","Texture2DContent",329,1093,0.006837
+"/home/tspadua/Projects/NeonShooter/Content/Sprites/Player.png","/home/tspadua/Projects/NeonShooter/Content/bin/DesktopGL/Sprites/Player.xnb","TextureProcessor","Texture2DContent",692,6485,0.0005813
+"/home/tspadua/Projects/NeonShooter/Content/Sprites/Pointer.png","/home/tspadua/Projects/NeonShooter/Content/bin/DesktopGL/Sprites/Pointer.xnb","TextureProcessor","Texture2DContent",526,2813,0.0004845
+"/home/tspadua/Projects/NeonShooter/Content/Sprites/Seeker.png","/home/tspadua/Projects/NeonShooter/Content/bin/DesktopGL/Sprites/Seeker.xnb","TextureProcessor","Texture2DContent",641,6485,0.0004853
+"/home/tspadua/Projects/NeonShooter/Content/Sprites/Wanderer.png","/home/tspadua/Projects/NeonShooter/Content/bin/DesktopGL/Sprites/Wanderer.xnb","TextureProcessor","Texture2DContent",1037,6485,0.0004784

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>/home/tspadua/Projects/NeonShooter/Content/Fonts/NovaSquare.spritefont</SourceFile>
+  <SourceTime>2022-02-24T07:58:20.5080519-03:00</SourceTime>
+  <DestFile>/home/tspadua/Projects/NeonShooter/Content/bin/DesktopGL/Content/Fonts/NovaSquare.xnb</DestFile>
+  <DestTime>2022-02-24T07:58:37.4679132-03:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2020-08-10T13:17:54-03:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2020-08-10T13:17:54-03:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
