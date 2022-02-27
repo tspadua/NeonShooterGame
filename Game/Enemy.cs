@@ -42,7 +42,11 @@ namespace NeonShooter
 
         public void WasShot()
         {
+            // volume is 0.5f, pitch is randomized between -0.5f and 0.5f
+            Sound.Explosion.Play(0.5f, rand.NextFloat(-0.2f, 0.2f), 0);
+
             IsExpired = true;
+
             PlayerStatus.AddPoints(PointValue);
             PlayerStatus.IncreaseMultiplier();
         }

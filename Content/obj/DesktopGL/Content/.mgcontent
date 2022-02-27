@@ -5,6 +5,27 @@
   <Config />
   <SourceFiles>
     <File>/home/tspadua/Projects/NeonShooter/Content/Fonts/NovaSquare.spritefont</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/explosion-01.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/explosion-02.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/explosion-03.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/explosion-04.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/explosion-05.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/explosion-06.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/explosion-07.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/explosion-08.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/Music.mp3</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/shoot-01.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/shoot-02.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/shoot-03.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/shoot-04.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/spawn-01.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/spawn-02.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/spawn-03.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/spawn-04.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/spawn-05.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/spawn-06.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/spawn-07.wav</File>
+    <File>/home/tspadua/Projects/NeonShooter/Content/Sounds/spawn-08.wav</File>
     <File>/home/tspadua/Projects/NeonShooter/Content/Sprites/Bullet.png</File>
     <File>/home/tspadua/Projects/NeonShooter/Content/Sprites/Player.png</File>
     <File>/home/tspadua/Projects/NeonShooter/Content/Sprites/Pointer.png</File>
@@ -12,6 +33,27 @@
     <File>/home/tspadua/Projects/NeonShooter/Content/Sprites/Wanderer.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

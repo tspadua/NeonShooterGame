@@ -71,6 +71,9 @@ namespace NeonShooter
                 float randomSpread = rand.NextFloat(-0.04f, 0.04f) + rand.NextFloat(-0.04f, 0.04f);
                 Vector2 vel = MathUtil.FromPolar(aimAngle + randomSpread, 11f);
 
+                // volume is 0.5f, pitch is randomized between -0.5f and 0.5f
+                Sound.Shot.Play(0.2f, rand.NextFloat(-0.2f, 0.2f), 0);
+
                 // Shoot two parallel bullets
                 Vector2 offset = Vector2.Transform(new Vector2(35, -8), aimQuat);
                 EntityManager.Add(new Bullet(Position + offset, vel));

@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Input;
 
 namespace NeonShooter
@@ -27,6 +28,8 @@ namespace NeonShooter
 
             // TODO: Add your initialization logic here
             EntityManager.Add(PlayerShip.Instance);
+            MediaPlayer.IsRepeating = true;
+            MediaPlayer.Play(Sound.Music);
         }
 
         protected override void LoadContent()
@@ -35,6 +38,7 @@ namespace NeonShooter
 
             // TODO: use this.Content to load your game content here
             Art.Load(Content);
+            Sound.Load(Content);
         }
 
         protected override void Update(GameTime gameTime)
