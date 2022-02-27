@@ -43,6 +43,8 @@ namespace NeonShooter
         public void WasShot()
         {
             IsExpired = true;
+            PlayerStatus.AddPoints(PointValue);
+            PlayerStatus.IncreaseMultiplier();
         }
 
         public void AddBehaviour(IEnumerable<int> behaviour)
@@ -63,6 +65,7 @@ namespace NeonShooter
         {
             var enemy = new Enemy(Art.Seeker, position);
             enemy.AddBehaviour(enemy.FollowPlayer());
+            enemy.PointValue = 4;
 
             return enemy;
         }
@@ -71,6 +74,7 @@ namespace NeonShooter
         {
             var enemy = new Enemy(Art.Wanderer, position);
             enemy.AddBehaviour(enemy.MoveRandomly());
+            enemy.PointValue = 2;
             return enemy;
         }
 

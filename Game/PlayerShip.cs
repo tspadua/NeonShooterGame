@@ -36,8 +36,16 @@ namespace NeonShooter
         {
             if (IsDead)
             {
-                framesUntilRespawn--;
-                return;
+                // this check is done so that the game wont reset lives before it can show the game over screen
+                if (--framesUntilRespawn == 0)
+                {
+                    if (PlayerStatus.Lives == 0)
+                    {
+                        PlayerStatus.Reset();
+                        Position = NeonShooterGame.ScreenSize / 2;
+                    }
+                }
+                return; // update wont continue on playerShip while it is dead.
             }
 
             const float speed = 8;
@@ -78,7 +86,8 @@ namespace NeonShooter
 
         public void Kill()
         {
-            framesUntilRespawn = 60;
+            PlayerStatus.RemoveLife();
+            framesUntilRespawn = PlayerStatus.IsGameOver ? 300 : 120;
         }
 
         public override void Draw(SpriteBatch spriteBatch)

@@ -65,11 +65,20 @@ namespace NeonShooter
             _spriteBatch.Begin(SpriteSortMode.Texture, BlendState.Additive);
             EntityManager.Draw(_spriteBatch);
 
-            _spriteBatch.DrawString(Art.MenuFont, "Lives: " + PlayerStatus.Lives, new Vector2(5), Color.White);
+            _spriteBatch.DrawString(Art.UiFont, "Lives: " + PlayerStatus.Lives, new Vector2(5), Color.White);
             DrawRightAlignedString("Score: " + PlayerStatus.Score, 5);
             DrawRightAlignedString("Multiplier: " + PlayerStatus.Multiplier, 35);
             // draw the custom mouse cursor
             _spriteBatch.Draw(Art.Pointer, Input.MousePosition, Color.White);
+            if (PlayerStatus.IsGameOver)
+            {
+                string text = "Game Over\n" +
+                    "Your Score: " + PlayerStatus.Score + "\n" +
+                    "High Score: " + PlayerStatus.HighScore;
+
+                Vector2 textSize = Art.UiFont.MeasureString(text);
+                _spriteBatch.DrawString(Art.UiFont, text, ScreenSize / 2 - textSize / 2, Color.White);
+            }
             _spriteBatch.End();
 
             base.Draw(gameTime);
@@ -77,8 +86,8 @@ namespace NeonShooter
 
         private void DrawRightAlignedString(string text, float y)
         {
-            var textWidth = Art.MenuFont.MeasureString(text).X;
-            _spriteBatch.DrawString(Art.MenuFont, text, new Vector2(ScreenSize.X - textWidth - 5, y), Color.White);
+            var textWidth = Art.UiFont.MeasureString(text).X;
+            _spriteBatch.DrawString(Art.UiFont, text, new Vector2(ScreenSize.X - textWidth - 5, y), Color.White);
         }
     }
 }
